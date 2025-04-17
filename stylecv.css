@@ -69,3 +69,14 @@ li::marker{
   content: "•";
   font-size: 1.3rem;
 }
+
+.major{
+  margin-top: 1.125rem;
+  display: inline-block;
+  width: fit-content;
+}
+.major + span{
+  font-style: unset;
+  display: inline-block;
+  text-align: left;
+}
